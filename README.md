@@ -1,9 +1,7 @@
-# Pretty Simple Web server written in Node.js
+Makói Állat- és Természetvédő Egyesület
 
-You can use this repository as a template for your repository or copy the files into your repository manually
+A Makói Állatvédő és Természetvédő Egyesületet 2002 áprilisában jegyezték be hivatalosan az egyesületek sorába. Minden állatszeretőt szeretettel várnak, hisz a céljaikhoz minden segítő kézre szükségük van.
 
-1. Open a new terminal (eg. in VS Code when your repository's directory opened)
-2. Run with the following command: `node backend/server.js` (Make sure that you are in the right directory.)
-3. If you don't need it stop it with `Control + C` keycommand.
+Tevékenységük az élővilág iránt felelősséget érző emberek összefogása az állatvédelem, a természetvédelem, a környezetvédelem érdekében, és az ezekre irányuló törvények  érvényesülésének elősegítése. A kulturált, állatbarát állattartási szokások elterjesztése, gazdátlan és sérült állatok elhelyezésének segítése. Makón igen sok a kóbor állat. Ezek  előbb-utóbb vagy az autók kerekei alatt végzik, vagy a gyepmesteri telepre kerülnek. Céljaik egyike, hogy ezeknek a reménytelen helyzetbe került állatoknak esélyt adjanak egy új gazdi megtalálására, a további életre. Jelenleg a befogott kutyáik és macskáik átmeneti szállásokon várják a csodát...
 
-You can write your frontend code (`HTML, CSS, JS`) into the `frontend` directory.
+Aki úgy érzi, szeretné segíteni munkájukkat, vagy szívesen hozzájárulna anyagi támogatásával költségeikhez, keresse elnöküket, vagy aktivistáikat.
