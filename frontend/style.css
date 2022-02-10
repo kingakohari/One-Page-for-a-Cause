@@ -35,10 +35,15 @@ select {
 
 /*css reset*/
 
-body {
+section {
     height: 100vh;
     width: 100%;
-    background-color: rgb(219, 210, 190);
+}
+
+.landing {
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.1em;
 }
@@ -48,6 +53,7 @@ body {
     max-height: 200px;
     left: 20px;
     top: 20px;
+    z-index: 1;
 }
 
 .list {
@@ -56,11 +62,14 @@ body {
     justify-content: space-between;
     align-content: center;
     display: flex;
-    top: 0;
-    right: 20%;
+    top: 10px;
+    left: 10%;
     list-style-type: none;
-    border-bottom: 2px black solid;
-    background: linear-gradient(320deg, rgba(192,179,161,0.1) 0%, rgba(201,168,122,0.1) 100%);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px #ffffff solid;
+    background: #C38F3E;
     border-radius: 5px;
     
     
@@ -87,54 +96,59 @@ a{
 }
 
 .list a:hover {
-    background-color: blueviolet;
+    color: #D6CFC6;
 }
 
 .bg1 {
     position: absolute;
-    display: block;
     height: 100vh;
     width: 100%;
-    z-index: -1;
     object-fit: cover;
 }
 
 .bg2 {
     position: absolute;
     height: 100vh;
-    object-fit: cover;
+    object-fit: scale-down;
+    top: 10%;
 
 }
 
 .welcome_message {
-
+    width: 100vh;
     position: relative;
-    top: 160px;
-    right: 20%;
-    text-align: right;
+    top: 200px;
+    left: 10%;
+    text-align: left;
+    color: #ffffff;
 }
 
-h1 {
+.név {
     font-size: 70px;
     font-weight: bold;
+    padding-bottom: 40px;
+
 }
 
-p {
-    padding: 15px 0px;
+.szükség {
+    padding: 20px 0px;
     font-size: 35px;
+    display: inline;
+    border-top: 2px #ffffff solid;
+
 }
 
 .fö_btn {
     position: relative;
-    align-content: center;
-    width: 200px;
-    height: 40px;
+    z-index: 1;
+    width: 240px;
+    height: 60px;
     background-color: #70912c;
-    left: 70%;
+    left: 10%;
     top: 50%;
     border-radius: 5px;
     box-shadow: -10px 10px 50px black;
     font-size: 20px;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 
 }
